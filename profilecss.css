@@ -1,0 +1,27 @@
+body{
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+h1{
+    color: white;
+    background-color: #1E88E5;
+    padding: 15px;
+}
+
+.bio{
+    color: darkgreen;
+    background-color: #E8F5E9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.quote{
+    color: maroon;
+    background-color: #FFF3CD;
+    padding: 15px;
+    border-radius: 10px;
+    font-style: italic;
+}
