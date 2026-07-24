@@ -1,0 +1,19 @@
+.maindiv{
+    border-color: aqua;
+    border-width: 10px;
+    border-style: solid;
+    padding: 20px;
+}
+.subdiv{
+     border-color: rgb(255, 106, 0);
+    border-width: 10px;
+    border-style: solid;
+    padding: 20px;
+}
+.innerdiv{
+     border-color: rgb(255, 240, 28);
+    border-width: 10px;
+    border-style: solid;
+    padding: 20px;
+    text-align: center;
+}
