@@ -1,0 +1,24 @@
+.mtitle{
+    text-align: right;
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tagline{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+table,th,td{
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+    
+
+}
+table{
+     margin: auto;
+     width: 50%;
+     border-collapse: collapse;
+
+}
