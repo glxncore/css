@@ -1,0 +1,27 @@
+h3{
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: goldenrod;
+
+}
+p{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    word-spacing: normal;
+
+}   
+table,th,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    
+
+}
+.link1{
+}
