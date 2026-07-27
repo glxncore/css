@@ -1,6 +1,7 @@
 .heading{
     text-align: center;
     border: 5px solid black;
+    
 }
 .noticebox{
     float: right;
@@ -10,11 +11,13 @@
     background-color: cornflowerblue;
     overflow: visible;
     position: relative;
-    
-
+    margin-top: 10px;
 }
 img{
     float: right;
     height: 200px;
     width: 200px;
+}
+inner{
+    position: absolute;
 }
