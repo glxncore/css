@@ -6,6 +6,7 @@
     padding: 6px;
     margin: auto;
 }
+
 body{
     background-color: rgb(157, 162, 177);
 }
@@ -49,8 +50,52 @@ p{
 }
 .bottom button{
     width: 10px;
-    height: ;
-    border: ;
-    border-radius: ;
     background:white;
+}
+@media only screen and (max-width: 1024px) {
+    .card {
+        width: 184px;
+       
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card{
+        width: 160px;
+    }
+    .bgm1{
+        height: 238px;
+    }
+    .heading1{
+        font-size: 21px;
+    }
+    .quote{
+        font-size: 11px;
+    }
+    .tag1 span{
+        padding: 7px 2px;
+    }
+}
+@media only screen and (max-width: 700px)
+{
+       .card{
+        width: 294px;
+    }
+    .bgm1{
+        height: 230px;
+    }
+    .heading1{
+        font-size: 44px;
+    }
+    .quote{
+        font-size: 16px;
+    }
+    .tag1 span{
+        padding: 20px 16px;
+    }
+    .bottom{
+        margin-top: 17px;
+    }
+    .allcards{
+        background-color: crimson;
+    }
 }
