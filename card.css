@@ -1,4 +1,4 @@
-.bgm {
+.card {
     background-color: #d9dde8;
     height: 329px;
     width: 278px;
@@ -9,10 +9,16 @@
 body{
     background-color: rgb(157, 162, 177);
 }
+.allcards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 .bgm1 {
     background-color: #d8f7ef;
-    padding: 23px;
+    padding: 19px;
     border-radius: 7px;
+    margin: 5px;
 }
 *{
     margin: 0;
