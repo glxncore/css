@@ -11,7 +11,7 @@ th,td{
 td{
     color:white;
 }
-.btn{
+.btn {
     text-decoration: none;
     padding: 10px;
     color: rgb(1, 1, 1);
@@ -20,7 +20,9 @@ td{
     margin: auto;
     border-radius: 5px;
     border: 2px solid black;
-    
+    position: relative;
+    top: 23px;
+    right: -469px;
 }
 .btn:hover{
     opacity: 50%;
