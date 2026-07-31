@@ -1,9 +1,16 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
 .form1 {
   width: 50vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 40px;
 }
 
 .mainbg {
@@ -23,20 +30,31 @@ body {
 }
 
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-weight: 500;
   color:coral;
 }
 .enhancer {
-    width: 616px;
-    height: 30px;
+    height: 45px;
+    width: 100%;
+    box-sizing: border-box;
+
 }
 button{
     background-color: coral;
     color: white;
-    width: 620px;
-    height: 30px;
+    width: 100%;
+    height: 45px;
+    border: 0px;
+}
+input[type="email"],
+input[type="text"],button{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+input[type="checkbox"]{
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .colorbg{
 background: linear-gradient(to bottom,
@@ -48,18 +66,19 @@ background: linear-gradient(to bottom,
     .colorbg{
         display: none;
     }
-    .form1{
-        width: 100vw;
+   .form1 {
+        width: 100%;
         height: 100vh;
         align-items: flex-start;
-        padding-top: 80px;
-}
-        
+        padding-top: 111px;
+        padding-left: 22px;
+        padding-right: 22px;
     }
+    
     .enhancer{
-        width: 420px;
+        width: 100%;
     }
-    .logbtn{
+    .button{
         width: 420px;
     }
     h3{
@@ -70,5 +89,4 @@ background: linear-gradient(to bottom,
         font-size: 20px;
 
     }
-
 }
