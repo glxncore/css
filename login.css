@@ -58,9 +58,8 @@ input[type="checkbox"]{
 }
 .colorbg{
 background: linear-gradient(to bottom,
-    #bccff6,
-    #b9b4b3,
-    #ece2d6)}
+    #8290e5db,
+    #f29e6296)}
 
 @media only screen and (max-width: 500px) {
     .colorbg{
